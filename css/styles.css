@@ -34,19 +34,39 @@ body{
     padding:17px 0px;
     font-size: 17px;
     border-bottom:1px solid rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 #Login-form input:nth-child(3){
     margin-top: 32px;
+    padding: 13px;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 0.7;
+    color:rgba(0,0,0,0.9);
 }
 #Login-form button{
     margin-top: 12px;
     padding: 17px;
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: bold;
     border: none;
     border-bottom: rgba(0,0,0,0.3);
+    border-radius: 8px;
+    padding: 13px;
+    opacity: 0.7;
+    color:rgba(0,0,0,0.9);
 }
 #Login-form input::placeholder{
    color:rgba(0,0,0,0.3);
    font-weight: bold;
    font-size: 18px;
+}
+#Login-form a{
+    display: flex;
+ justify-content: center;
+ margin-top: 20px;
+ font-size: 13px;
+ color:rgba(0,0,0,0.6);
+ font-weight: bold;
+
 }
