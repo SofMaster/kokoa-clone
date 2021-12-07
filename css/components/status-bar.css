@@ -6,7 +6,7 @@
     box-sizing: border-box;
     position: fixed;
     top:0px;
-    width: 100%;;
+    width: 100%;
 }
 .status-bar__column{
     width: 33%;
@@ -16,17 +16,16 @@
 .status-bar__column:nth-child(2){
     display: flex;
     justify-content: center;
-    font-weight:bold
+    font-weight:bold;
 }
 .status-bar__column:nth-child(3){
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
 }
 .status-bar__column:first-child span{
     margin-right: 5px;
-    font-weight:bold
+    font-weight:bold;
 }
 .status-bar__column .fa-battery-full{
  margin: 0px 5px;
