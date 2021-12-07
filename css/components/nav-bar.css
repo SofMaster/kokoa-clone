@@ -1,0 +1,17 @@
+.nav{
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    background-color: #F9F9FA;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nav__link{
+    color:#42464A;
+}
