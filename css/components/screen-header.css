@@ -6,6 +6,7 @@
     padding-left: var(--horizontal-space);
     padding-right: 25px;
     align-items: center;
+    margin-bottom: 15px;
 }
 .screen-header__title{
     font-size: 30px;
