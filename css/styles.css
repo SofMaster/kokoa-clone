@@ -7,6 +7,8 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -14,4 +16,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color:#42464A;
+}
+.main-screen{
+    padding: 0px var(--horizontal-space);
 }
