@@ -15,7 +15,7 @@
     margin-top: 18px;
 }
 .recommended-friends{
-    margin: 25px 0px;
+    margin: 15px 0px;
     padding: 25px 0px;
     border-top: var(--main-border);
     border-bottom: var(--main-border);
@@ -26,7 +26,7 @@
     font-weight: bold;
 }
 .recommended-friends span{
-    margin: 110px 0;
+    margin: 100px 0;
     display: block;
     text-align: center;
     color: rgba(0,0,0,0.3);
@@ -39,7 +39,7 @@
     justify-content: space-between;
     opacity: 0.7;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .open-chat__header span{
     opacity: 0.5;
@@ -48,6 +48,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    margin-top: 30px;
 }
 .open-post__title{
     font-weight: bold;
@@ -110,3 +111,75 @@
 .open-post__photos div{
     padding-left: 10px;
 }
+
+.open-post2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-top: var(--main-border);
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.open-post2__title{
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 19px;
+    margin-top: 10px;
+}
+.open-post2__hashtags{
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.open-post2__members{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.open-post2__members img{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.open-post2__members span{
+    opacity: 0.5;
+}
+.open-post2__members .divider{
+ width: 2px;
+ height: 14px;
+ margin: 0 5px;
+ background-color: rgba(0,0,0,0.2);
+}
+.open-post2__member-status{
+    color:#FF89D1 ;
+}
+.open-post2__photos{
+    position:relative;
+}
+.open-post2__photos img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top:10px;
+}
+.open-post2__heart-count{
+ background-color: rgba(0,0,0,0.6);
+ color:white;
+ padding: 5px;
+ width: 45px;
+ height: 14px;
+ font-size: 15px;
+ border-radius: 15px;
+ display: flex;
+ align-items: center;
+ position:absolute;
+ bottom:10px;
+ right:5px;
+}
+.open-post2__heart-count span{
+    margin-left: 3px;
+}
+.open-post2__photos div{
+    padding-left: 10px;
+}
+
