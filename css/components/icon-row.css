@@ -59,6 +59,7 @@ right: 5px;
     display: flex;
     justify-content:left;
     margin-top: 30px;
+    margin-left: -20px;
 }
 
 .sug-item__icon{
