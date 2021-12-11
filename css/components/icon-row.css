@@ -1,0 +1,80 @@
+.icon-row{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-row__icon, .icon-row2__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.icon-row__icon i, .icon-row2__icon i{
+    font-size: 35px;
+}
+.icon-row__icon span, .icon-row2__icon span{
+    margin-top: 18px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.icon-row2{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-row2__left{
+    display: flex;
+    justify-content: left;
+    width:250px;
+    margin-left: 21px;
+}
+.icon-row2__icon-openchat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left:130px;
+}
+.icon-row2__icon-openchat i{
+    font-size: 35px;
+}
+.icon-row2__icon-openchat span{
+    margin-top: 18px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.icon-row__icon #dot{
+    background-color: tomato;
+display: flex;
+justify-content: center;
+align-items: center;
+position:absolute;
+border-radius: 50%;
+width: 6px;
+height: 6px;
+top: -20px;
+right: 5px;
+}
+
+.sug-item{
+    display: flex;
+    justify-content:left;
+    margin-top: 30px;
+}
+
+.sug-item__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+.sug-item__icon img{
+    width: 60px;
+    height: 60px;
+}
+.sug-item__icon span{
+    margin-top: 18px;
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: 18px;
+}
