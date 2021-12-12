@@ -12,6 +12,24 @@
     font-size: 25px;
     opacity: 0.8;
 }
+.settings__setting span{
+    margin-left: 10px;
+}
 .settings__setting-column:last-child{
     opacity: 0.6;
+}
+.settings__setting-column{
+    display: flex;
+    align-items: center;
+}
+.settings__setting-column:nth-child(6) span{
+    margin-left: -10px;
+}
+.settings__setting-column i{
+    margin-right: 10px;
+    font-size:25px;
+    width: 30px;
+}
+.new-badge{
+    margin-left: 10px;
 }
