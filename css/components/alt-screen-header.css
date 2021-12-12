@@ -18,6 +18,6 @@ padding:var(--horizontal-space)
 .settings__setting:last-child{
     padding-bottom: 50px;
 }
-.settings__setting:last-child: span{
+.settings__setting:last-child span{
    
 }
