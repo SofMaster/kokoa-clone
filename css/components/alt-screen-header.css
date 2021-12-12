@@ -15,9 +15,11 @@ padding:var(--horizontal-space)
 .alt-header__column:last-child{
     margin-left: auto;
 }
-.settings__setting:last-child{
+.settings__setting:nth-child(3){
     padding-bottom: 50px;
 }
-.settings__setting:last-child span{
-   
+.settings__setting:nth-child(4){
+    padding-top: 50px;
+    border-top:  1px solid rgba(0,0,0,0.3);
 }
+
