@@ -3,17 +3,25 @@ margin: 0px 0px;
 display: flex;
 align-items: center;
 justify-content: center;
-padding:var(--horizontal-space)
+padding:var(--horizontal-space);
+margin-top: 15px;
 }
 .alt-header__title{
-    font-size: 28px;
+    font-size: 23px;
     font-weight: bold;
+    text-align: center;
 }
+.alt-header__column{
+    width:33%;
+}
+
 .alt-header__column:first-child{
     margin-right: auto;
 }
 .alt-header__column:last-child{
     margin-left: auto;
+    display: flex;
+    justify-content:flex-end;
 }
 .settings__setting:nth-child(3){
     padding-bottom: 50px;
