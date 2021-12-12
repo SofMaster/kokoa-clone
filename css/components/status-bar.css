@@ -11,7 +11,7 @@
 .status-bar__column{
     width: 33%;
     font-weight:bold;
-    font-size: 13px;
+    font-size: 17px;
 }
 .status-bar__column:nth-child(2){
     display: flex;
